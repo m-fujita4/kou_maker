@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>kou-maker</title>
+    <link rel="stylesheet" href="css1.css">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script>
+		"use strict";
+		function chiku_show(){ 
+            // コンテンツがページに動的に挿入される場合、新しいボタンとウィジェットを解析する必要アリ
+            // 参考: https://abillyz.com/watanabe/studies/314
+            twttr.widgets.load();
+            var koume0 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">白の無い世界にいってみたら～、<br><br>私は白塗りでした～。<br><br>チクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1662413523149021190?ref_src=twsrc%5Etfw">May 27, 2023</a></blockquote>';
+            var philo0 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「存在の概念がない世界」という思考実験を踏まえた作品。「白という概念が無い世界」において、小梅氏が、世界外から「白という概念」をもたらした時、一体何が起きるのか。受容か、排除か、狂乱か。全き異質さは、クトゥルフ的「宇宙的恐怖」を世界に齎し、チクショー❗️と絶叫する事態が生じるのだ。 <a href="https://t.co/ExB54YMIak">https://t.co/ExB54YMIak</a></p>&mdash; 哲学者コウ・メダユー (@koume_philo) <a href="https://twitter.com/koume_philo/status/1662429455598641153?ref_src=twsrc%5Etfw">May 27, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+            
+            var koume1 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">立食パ～ティ～かと思ったら～、<br><br>立ちくらみパンダ立てないでした～。<br><br>チクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1659300720854847488?ref_src=twsrc%5Etfw">May 18, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+            var philo1 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「立食パ～ティ～」は、我々の二足歩行を前提に成立している文化的構築物である。しかし、二足歩行の前提は、人間中心主義的であるし、パーティーという空間をパンダのような非人間に開くことが出来ない。立食パ～ティ～にて立ち眩みを起こすパンダを見た小梅氏は、「畜生」にも配慮せよと説くのだ。 <a href="https://t.co/q7awOYFlx7">https://t.co/q7awOYFlx7</a></p>&mdash; 哲学者コウ・メダユー (@koume_philo) <a href="https://twitter.com/koume_philo/status/1660887617775493120?ref_src=twsrc%5Etfw">May 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+
+            var koume2 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">母に私の笑顔をプレゼントしたら～、<br><br>チクショウ叫ばれました～。<br><br>チクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1657938139426754560?ref_src=twsrc%5Etfw">May 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+            var philo2 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「親子関係」は、古今東西に存在する問題である。その関係は、親から子への贈与だけでなく、子から親への「返礼」を必要とする。母に「笑顔」をプレゼントした小梅氏だが、経済的な援助を必要とする母親は、非物質的な物の贈与しか行わない小梅氏を「畜生」と罵ってしまったのだ。問題作。 <a href="https://t.co/soez3mo0Cw">https://t.co/soez3mo0Cw</a></p>&mdash; 哲学者コウ・メダユー (@koume_philo) <a href="https://twitter.com/koume_philo/status/1660846950202179587?ref_src=twsrc%5Etfw">May 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><j\/script>'
+            
+            var koume3 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">待ちに待った今日という日かと思ったら～、<br><br>ウルトラマンに踏み潰されました～。<br><br>チクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1647067178934632448?ref_src=twsrc%5Etfw">April 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+            var philo3 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">『ウルトラマン』においては、突如市街地が戦場になることがある。そんななか、怪獣を倒すウルトラマンは一見ヒーローのように見えるが、作中において踏み潰される一般人の存在は不可視化されている(三人称の死)。小梅氏は、三人称の死を一人称の死に引き寄せることで、その死を重く受け止めるのだ。 <a href="https://t.co/8PIC0DLe5S">https://t.co/8PIC0DLe5S</a></p>&mdash; 哲学者コウ・メダユー (@koume_philo) <a href="https://twitter.com/koume_philo/status/1648725586918129671?ref_src=twsrc%5Etfw">April 19, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+
+            var koume4 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">春を訪れを待っていたら～、<br><br>パイプ椅子でした～。<br><br>チクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1640676211117658113?ref_src=twsrc%5Etfw">March 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+            var philo4 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">春といえばなんだろう。桜やそれを見る花見、或いは卒業シーズン…色々なものが思い浮かぶが、小梅氏は「パイプ椅子」と春の訪れを関連付ける。確かに、よくよく考えてみればパイプ椅子は、卒業式や入学式などの式典に必須だ。小梅氏は、春の行事を支える立役者としてパイプ椅子に注目してみせるのだ。 <a href="https://t.co/ZywUwp3v9j">https://t.co/ZywUwp3v9j</a></p>&mdash; 哲学者コウ・メダユー (@koume_philo) <a href="https://twitter.com/koume_philo/status/1640821345620742146?ref_src=twsrc%5Etfw">March 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+
+            var koume5 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">２０××年、地球に危機が迫っていたチクショウ。<br><br>地球の５倍の白塗彗星が１ヶ月後にチク衝突するというのだ。<br><br>人類は国境を超え結束し地球を守るプロジェクツを立ち上げた。<br><br>かと思ったら～、<br><br>白塗彗星はマシュマロチワワでした～。<br><br>チクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1636574354040590336?ref_src=twsrc%5Etfw">March 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+            var philo5 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">彗星の存在は、様々な器機、論文といった資源を動員することによって「構築」される。あくまでそれは、実験室の中で構築された事実であり、より固い事実が構築されれば、過去の事実は覆される。小梅氏は、彗星がチワワという畜生だった事例から、科学的事実が粉砕され更新される様を描きだしたのだ。 <a href="https://t.co/gr2ulvufGt">https://t.co/gr2ulvufGt</a></p>&mdash; 哲学者コウ・メダユー (@koume_philo) <a href="https://twitter.com/koume_philo/status/1636593694039240704?ref_src=twsrc%5Etfw">March 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+
+            var koume6 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">レンジでチンかと思ったら～、<br><br>カンフ～でアチョ～でした～。<br><br>チクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1629095128538439680?ref_src=twsrc%5Etfw">February 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+            var philo6 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">我々は大抵、「カンフ〜でアチョ〜」する時の「アチョ〜」がどのような身体技術によって行われているかを知らない。同様に、我々は「レンジでチン」の「チン」の内実を詳しくは知らない。小梅氏は、簡略化された技術であれ、達人の技術知であれ、技術は大抵ブラックボックス的である事を示したのだ。 <a href="https://t.co/T1zFLRAG9n">https://t.co/T1zFLRAG9n</a></p>&mdash; 哲学者コウ・メダユー (@koume_philo) <a href="https://twitter.com/koume_philo/status/1629818319019868160?ref_src=twsrc%5Etfw">February 26, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+
+            var koume7 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">未来を変えようと思ったら～、<br><br>自分次第でした～。<br><br>チクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1070220582858313728?ref_src=twsrc%5Etfw">December 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+            var philo7 = '';
+
+            var koume8 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あだ名禁止の学校かと思ったら～、<br><br>番号で呼ばれました～。<br><br>刑務所だったチクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1533094584888152064?ref_src=twsrc%5Etfw">June 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+            var philo8 = '<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">学校と刑務所の相似性は、フーコーを持ち出すまでもなく理解できる。「あだ名禁止」によって、学校＝刑務所は、、“囚人“達のコミュニケーションをも規律化し、囚人間に生じる差異を均質化しようとする。しかしそれを推し進めると…「番号」によって、彼らのアイデンティティは剥ぎ取られるのだ。傑作。 <a href="https://t.co/BRVeR0l61n">https://t.co/BRVeR0l61n</a></p>&mdash; 哲学者コウ・メダユー (@koume_philo) <a href="https://twitter.com/koume_philo/status/1534156745077010433?ref_src=twsrc%5Etfw">June 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><\/script>';
+
+            var list_chiku = [
+                [koume0, philo0], [koume1, philo1], [koume2, philo2],
+                [koume3, philo3], [koume4, philo4], [koume5, philo5],
+                [koume6, philo6], [koume7, philo7], [koume8, philo8]
+            ];
+
+            var rand = Math.floor(Math.random() * list_chiku.length);
+            console.log(list_chiku[rand])
+
+            document.getElementById("contents").innerHTML = list_chiku[rand][0] + list_chiku[rand][1];
+            // twttr.widgets.load();  // この一文で解決
+		}
+
+
+    </script>
+    
+</head>
+
+<body>
+	<h1>おすすめコウメ大夫 on Twitter</h1>
+    <p id="chiku_button">
+        <input type="button" 
+        style="width:400px;height:50px;font-size:200%;font-weight:bold;
+        color:white;background-color:red;box-shadow:0 3px 0 0 black;" 
+        value="チクショー！！" onclick="chiku_show();">
+    </p>
+
+    <div id="contents-title">
+        <p>コウメ先生のツイート</p>
+        <p>メダユーによる解説</p>
+    </div>
+
+    <div id="contents">
+        
+        <blockquote class="twitter-tweet">
+            <p lang="ja" dir="ltr">助手席に彼女を乗せたと思ったら～、<br><br>よく見たら耳かきでした～。<br><br>チクショー！！　<a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%84%E3%81%AB%E3%81%A1%E3%83%81%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#まいにちチクショー</a></p>&mdash; コウメ太夫 (@dayukoume) <a href="https://twitter.com/dayukoume/status/1627674044148633600?ref_src=twsrc%5Etfw">February 20, 2023</a>
+        </blockquote>
+
+        <blockquote class="twitter-tweet">
+            <p lang="ja" dir="ltr">カントは、人間を「手段としてのみ扱う」ことを批判し、互いの人間性を尊重し、目的として尊重しあう事が重要であると説いた。助手席に彼女を乗せた小梅氏はふと、彼女を耳かきの手段として扱っていた事に気付く。小梅氏は彼女の人間性を尊重していない事に気付き、己を「畜生」であると恥じたのだ。 <a href="https://t.co/0i4uMT3Kvf">https://t.co/0i4uMT3Kvf</a></p>&mdash; 哲学者コウ・メダユー (@koume_philo) <a href="https://twitter.com/koume_philo/status/1627835266395410432?ref_src=twsrc%5Etfw">February 21, 2023</a>
+        </blockquote>
+    </div>
+</body>
+</html>
